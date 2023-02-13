@@ -1,0 +1,12 @@
+#design triangle 
+print("                                      /  \                                                  ")
+print("                                     /    \                                                 ")
+print("                                    /      \                                               ")
+print("                                   /        \                                              ")
+print("                                  /          \                                             ")
+print("                                 /            \                                            ")
+print("                                /              \                                           ")
+print("                               /                \                                          ")
+print("                              /                  \                                         ")
+print("                             /                    \                                        ")
+print("                             ----------------------                                        ")
