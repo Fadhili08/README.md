@@ -1,8 +1,14 @@
+#do while
 
-if(age <= 25 & gender ="Male"):
-    if(weight =>75 | height < 125):
-       print("You are obese")
-    elif(weight =>55 | height <115)
-          print("you are healthy")
-elif(age <= 18 & gender = "Male"):
-    
+age = 26
+gender = "male"
+height = 140
+weight = 70
+
+if( age <= 18) & (gender = male) :
+    if (weight > 65 | height < 175):
+        print("You are obese")
+    else:
+        print("You are healthy")
+else:
+    print("You are just fine")
