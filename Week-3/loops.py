@@ -5,7 +5,7 @@ gender = "male"
 height = 140
 weight = 70
 
-if( age <= 18) & (gender = male) :
+if( age <= 18) & (gender  male) :
     if (weight > 65 | height < 175):
         print("You are obese")
     else:
