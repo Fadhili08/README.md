@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Personal website</title>
+<link rel = "stylesheet" href = "style.css">
+<title>HTML Table Layout</title>
 </head>
 <body style="margin: 2px;">
     <table style="width:45%">
     <table style="width:100%; border-collapse:collapse; font:14px Arial,sans-serif;">
         <tr>
             <td colspan="2" style="padding:10px 20px; background-color:#acb3b9;">
-                <h1 style="font-size:24px;">Personal Blog</h1>
+                <h1 style="font-size:24px;">Alvin's Blog</h1>
             </td>
         </tr>
         <tr style="height:170px;">
@@ -35,15 +36,15 @@
                 </ol>
             <h2>Contact Me</h2>
             <form>
-                <label for="Name"></label>
-
-                <input type="text">
-                <label for="Email"></label>
-                <input type="text">
-                <label for="Message"></label>
-                <input type="text">
+               <p><label for= "Name">Name</label>
+                <input type="text"></p>
+                <p><label for="Email">Email</label>
+                <input type="text"></p>
+                <p><label for="Message">Message</label>
+                <input type="text"></p>
             </form>
-                <button style="color:rgb(75, 4, 4);margin: 0px; background-color: rgb(197, 200, 204);">SEND Message</button>
+                <button id="msg_button">SEND MESSAGE</button>
+                <button id="email_button">EMAIL ME</button>
                 
                 
             </td>
