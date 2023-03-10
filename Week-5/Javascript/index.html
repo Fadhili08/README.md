@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stlyesheet" href="style.css">
+    </head>
+        <body>
+            <h1 id= "text">Javascript Basics</h1>
+            <h1 id="f_name"></h1>
+            <h1 id="s_name"></h1>
+            <h1 id="age"></h1>
+            <h1 id="weight"></h1>
+
+            <h2 id="f_number"></h2>
+            <h2 id="s_number"></h2>
+            <h2 id="sum_number"></h2>
+
+            <h2 id="fruits"></h2>
+                        
+
+
+            <script>
+                //variable in Javascript//
+                //number
+                var f_number = 20;
+                var s_number = 30;
+               
+                var sum_number = f_number + s_number
+
+                //arithmetic operations
+                //+ ,- ,/ ,* ,%
+                var n1 =5;
+                var n2 =6;
+
+                var sum_num = n1 + n2
+                var diff_num = n1 - n2
+                var product_num = n1 * n2
+                var quotient_num  = n1 / n2
+                var modulus = n1 % n2
+
+                var n1,n2,n3,n4; //declare variables
+
+
+                //string use " "
+                var my_first_name = "Alvin"
+                var my_second_name = "Fadhili"
+                var my_city = "Nairobi"
+
+                var age = 18;
+                var weight =65.9; 
+
+                var full_name = my_first_name +"   " +my_second_name;
+
+                //Arrays
+                let fruits = ["banana","Apples","mangoes","grapes","oranges"]
+
+                let my_fruit = fruits[fruits.length - 1];
+               //conditions -- if else
+               var msg = ""
+               if(age >= 18){
+                msg = "You can drive";
+               }else{
+                  msg = "still too young to drive";
+               }
+               
+                document.getElementById("fruits").innerHTML = msg 
+
+                document.getElementById("f_number").innerHTML = full_name
+                document.getElementById("").innerHTML = 
+                document.getElementById("sum_number").innerHTML = sum_number
+               
+           </script>
+            <button>Click Me</button>
+        </body>
+    
+</html>
